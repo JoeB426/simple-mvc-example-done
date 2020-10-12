@@ -64,7 +64,7 @@ app.use('/assets', express.static(path.resolve(`${__dirname}/../client/`)));
 app.use(compression());
 
 // parse form POST requests as application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // parse application/json body requests.
 // These are usually POST requests or requests with a body parameter in AJAX

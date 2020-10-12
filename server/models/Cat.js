@@ -3,7 +3,7 @@
 // it stays connected across all of the files in this project
 // As long as you import this after you have connected,
 // then mongoose will give you the active DB connection which is what we want
-const mongoose = require('mongoose');
+const mongoose = require('mongoose'); 
 
 // variable to hold our Model
 // A Model is our data structure to handle data. This can be an object, JSON, XML or anything else.
